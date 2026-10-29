@@ -1,0 +1,23 @@
+{
+  "campaign": "When hunger calls",
+  "variants": {
+    "hero": {
+      "lang": "en-US",
+      "landing_url": "https://www.bk.com/",
+      "aria": "Burger King concept ad: when hunger calls",
+      "headline_1": "When hunger",
+      "headline_2": "calls.",
+      "subline": "Answer with flavor.",
+      "cta": "Order now"
+    },
+    "flame": {
+      "lang": "en-US",
+      "landing_url": "https://www.bk.com/",
+      "aria": "Burger King concept ad: worth the craving",
+      "headline_1": "Worth the",
+      "headline_2": "craving.",
+      "subline": "Flame-grilled flavor.",
+      "cta": "Explore menu"
+    }
+  }
+}

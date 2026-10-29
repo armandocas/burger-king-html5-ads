@@ -1,0 +1,214 @@
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.ad {
+  position: relative;
+  overflow: hidden;
+  background: #f7e5bd;
+  color: #5a1a0d;
+  border: 1px solid #5a1a0d;
+}
+.swoosh {
+  position: absolute;
+  z-index: 0;
+  display: block;
+  border-radius: 50%;
+  background: #ee7834;
+}
+.brand {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  object-fit: contain;
+}
+.copy {
+  position: absolute;
+  z-index: 2;
+}
+.copy h1 {
+  margin: 0;
+  font-family:
+    Arial Black,
+    Arial,
+    Helvetica,
+    sans-serif;
+  font-weight: 900;
+  letter-spacing: -1.6px;
+  line-height: 0.97;
+}
+.copy p {
+  margin: 8px 0 0;
+  font-weight: 700;
+}
+.cta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  background: #d6231c;
+  color: #fff4dc;
+  border-radius: 22px;
+  font-weight: 800;
+  white-space: nowrap;
+}
+.cta span {
+  font-size: 1.2em;
+  line-height: 0;
+}
+.burger {
+  position: absolute;
+  z-index: 1;
+  display: block;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  filter: drop-shadow(0 8px 5px #78341844);
+}
+.ad-click {
+  position: absolute;
+  z-index: 5;
+  inset: 0;
+  cursor: pointer;
+}
+.ad-click:focus-visible {
+  outline: 3px solid #5a1a0d;
+  outline-offset: -5px;
+}
+/* Fixed canvas dimensions also make standalone browser inspection faithful. */
+.ad--300x250 {
+  width: 300px;
+  height: 250px;
+}
+.ad--728x90 {
+  width: 728px;
+  height: 90px;
+}
+.ad--160x600 {
+  width: 160px;
+  height: 600px;
+}
+/* Fixed sizes need separate compositions; scaling the whole canvas makes type unreadable. */
+.ad--300x250 .swoosh {
+  width: 230px;
+  height: 230px;
+  right: -85px;
+  bottom: -105px;
+}
+.ad--300x250 .brand {
+  width: 51px;
+  height: 51px;
+  left: 14px;
+  top: 14px;
+}
+.ad--300x250 .copy {
+  left: 15px;
+  top: 76px;
+}
+.ad--300x250 h1 {
+  font-size: 24px;
+}
+.ad--300x250 p {
+  font-size: 11px;
+}
+.ad--300x250 .cta {
+  margin-top: 27px;
+  padding: 9px 12px;
+  font-size: 11px;
+}
+.ad--300x250 .burger {
+  width: 177px;
+  right: -18px;
+  bottom: 4px;
+}
+.ad--728x90 .swoosh {
+  width: 250px;
+  height: 150px;
+  right: 78px;
+  top: -32px;
+}
+.ad--728x90 .brand {
+  width: 61px;
+  height: 61px;
+  left: 15px;
+  top: 13px;
+}
+.ad--728x90 .copy {
+  left: 100px;
+  top: 18px;
+}
+.ad--728x90 h1 {
+  font-size: 22px;
+  letter-spacing: -1px;
+}
+.ad--728x90 p {
+  display: none;
+}
+.ad--728x90 .cta {
+  position: absolute;
+  left: 485px;
+  top: 9px;
+  margin: 0;
+  padding: 11px 15px;
+  font-size: 12px;
+}
+.ad--728x90 .burger {
+  width: 136px;
+  left: 450px;
+  bottom: -19px;
+}
+.ad--160x600 .swoosh {
+  width: 255px;
+  height: 255px;
+  left: -48px;
+  top: 263px;
+}
+.ad--160x600 .brand {
+  width: 69px;
+  height: 69px;
+  left: 45px;
+  top: 24px;
+}
+.ad--160x600 .copy {
+  left: 13px;
+  right: 10px;
+  top: 133px;
+}
+.ad--160x600 h1 {
+  font-size: 27px;
+  letter-spacing: -1.7px;
+}
+.ad--160x600 p {
+  font-size: 12px;
+  margin-top: 13px;
+}
+.ad--160x600 .cta {
+  position: absolute;
+  top: 407px;
+  left: 0;
+  margin: 0;
+  padding: 11px 13px;
+  font-size: 12px;
+}
+.ad--160x600 .burger {
+  width: 212px;
+  left: -24px;
+  top: 310px;
+}
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *:before,
+  *:after {
+    animation: none !important;
+    transition: none !important;
+  }
+}

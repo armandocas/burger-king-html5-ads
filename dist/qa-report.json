@@ -1,0 +1,104 @@
+[
+  {
+    "variant": "hero",
+    "size": "300x250",
+    "result": "pass",
+    "animation_ms": 1900,
+    "checks": [
+      "dimensions",
+      "content bounds",
+      "assets",
+      "no remote requests",
+      "one exit",
+      "mouse clickTag",
+      "keyboard clickTag",
+      "late override",
+      "JavaScript errors"
+    ]
+  },
+  {
+    "variant": "hero",
+    "size": "728x90",
+    "result": "pass",
+    "animation_ms": 1900,
+    "checks": [
+      "dimensions",
+      "content bounds",
+      "assets",
+      "no remote requests",
+      "one exit",
+      "mouse clickTag",
+      "keyboard clickTag",
+      "late override",
+      "JavaScript errors"
+    ]
+  },
+  {
+    "variant": "hero",
+    "size": "160x600",
+    "result": "pass",
+    "animation_ms": 1900,
+    "checks": [
+      "dimensions",
+      "content bounds",
+      "assets",
+      "no remote requests",
+      "one exit",
+      "mouse clickTag",
+      "keyboard clickTag",
+      "late override",
+      "JavaScript errors"
+    ]
+  },
+  {
+    "variant": "flame",
+    "size": "300x250",
+    "result": "pass",
+    "animation_ms": 1900,
+    "checks": [
+      "dimensions",
+      "content bounds",
+      "assets",
+      "no remote requests",
+      "one exit",
+      "mouse clickTag",
+      "keyboard clickTag",
+      "late override",
+      "JavaScript errors"
+    ]
+  },
+  {
+    "variant": "flame",
+    "size": "728x90",
+    "result": "pass",
+    "animation_ms": 1900,
+    "checks": [
+      "dimensions",
+      "content bounds",
+      "assets",
+      "no remote requests",
+      "one exit",
+      "mouse clickTag",
+      "keyboard clickTag",
+      "late override",
+      "JavaScript errors"
+    ]
+  },
+  {
+    "variant": "flame",
+    "size": "160x600",
+    "result": "pass",
+    "animation_ms": 1900,
+    "checks": [
+      "dimensions",
+      "content bounds",
+      "assets",
+      "no remote requests",
+      "one exit",
+      "mouse clickTag",
+      "keyboard clickTag",
+      "late override",
+      "JavaScript errors"
+    ]
+  }
+]

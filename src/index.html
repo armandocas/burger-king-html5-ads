@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="{{LANG}}">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="ad.size" content="width={{WIDTH}},height={{HEIGHT}}" />
+    <title>Burger King | {{LANG}} | {{SIZE}}</title>
+    <script>
+      var clickTag = "{{LANDING_URL}}";
+    </script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="ad ad--{{SIZE}}" aria-label="{{ARIA}}">
+      <span class="swoosh" aria-hidden="true"></span>
+      <img class="brand" src="logo.svg" alt="Burger King" draggable="false" />
+      <div class="copy">
+        <h1>{{HEADLINE_1}}<br />{{HEADLINE_2}}</h1>
+        <p>{{SUBLINE}}</p>
+        <div class="cta">{{CTA}} <span aria-hidden="true">↗</span></div>
+      </div>
+      <img
+        class="burger"
+        src="burger.png"
+        width="{{BURGER_WIDTH}}"
+        height="{{BURGER_HEIGHT}}"
+        alt=""
+        draggable="false"
+      />
+      <a
+        class="ad-click"
+        href="javascript:window.open(window.clickTag)"
+        aria-label="{{CTA}}"
+      ></a>
+    </main>
+    <script src="ad.js"></script>
+  </body>
+</html>

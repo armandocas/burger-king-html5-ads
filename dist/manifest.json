@@ -1,0 +1,56 @@
+[
+  {
+    "variant": "hero",
+    "lang": "en-US",
+    "size": "300x250",
+    "initial_bytes": 30427,
+    "zip_bytes": 23053,
+    "zip": "burgerking_hero_300x250.zip",
+    "backup": "burgerking_hero_300x250_backup.png"
+  },
+  {
+    "variant": "hero",
+    "lang": "en-US",
+    "size": "728x90",
+    "initial_bytes": 21746,
+    "zip_bytes": 14381,
+    "zip": "burgerking_hero_728x90.zip",
+    "backup": "burgerking_hero_728x90_backup.png"
+  },
+  {
+    "variant": "hero",
+    "lang": "en-US",
+    "size": "160x600",
+    "initial_bytes": 36629,
+    "zip_bytes": 29264,
+    "zip": "burgerking_hero_160x600.zip",
+    "backup": "burgerking_hero_160x600_backup.png"
+  },
+  {
+    "variant": "flame",
+    "lang": "en-US",
+    "size": "300x250",
+    "initial_bytes": 30435,
+    "zip_bytes": 23059,
+    "zip": "burgerking_flame_300x250.zip",
+    "backup": "burgerking_flame_300x250_backup.png"
+  },
+  {
+    "variant": "flame",
+    "lang": "en-US",
+    "size": "728x90",
+    "initial_bytes": 21754,
+    "zip_bytes": 14387,
+    "zip": "burgerking_flame_728x90.zip",
+    "backup": "burgerking_flame_728x90_backup.png"
+  },
+  {
+    "variant": "flame",
+    "lang": "en-US",
+    "size": "160x600",
+    "initial_bytes": 36637,
+    "zip_bytes": 29270,
+    "zip": "burgerking_flame_160x600.zip",
+    "backup": "burgerking_flame_160x600_backup.png"
+  }
+]

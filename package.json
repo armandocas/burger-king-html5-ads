@@ -1,0 +1,15 @@
+{
+  "name": "burger-king-display-study",
+  "private": true,
+  "scripts": {
+    "ads:prepare": "python3 scripts/build.py prepare",
+    "ads:qa": "node scripts/render-and-qa.js",
+    "ads:package": "python3 scripts/build.py package",
+    "ads:build": "python3 scripts/build.py prepare && node scripts/render-and-qa.js && python3 scripts/build.py package",
+    "format": "prettier --write src/index.html src/style.css src/ad.js preview/index.html scripts/render-and-qa.js creative.json package.json"
+  },
+  "devDependencies": {
+    "playwright": "1.62.1",
+    "prettier": "3.6.2"
+  }
+}
